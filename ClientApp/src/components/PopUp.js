@@ -8,7 +8,7 @@ export default ({actress, movie, year, pictures, index, close}) => (
             <div className="actressText">
                 {`Acted in: `}
                 <p>{`"${movie}"`}</p>
-                {`in the year ${year}`}
+                {`in the year ${year}.`}
             </div>
             <button className="btn btn-primary" onClick={close}>OK</button>
         </div>

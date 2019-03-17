@@ -85,6 +85,7 @@ body {
 .loading {
   text-align: center;
   margin-top: 28vh;
+  font-family: 'Lilita One', cursive;
   padding: 3%;
   background-color: lightgrey;
   width: 20%;
@@ -94,7 +95,11 @@ body {
 
 .mainHeader {
   text-align: center;
-  margin-top: 26vh; }
+  margin-top: 26vh;
+  font-family: 'Lilita One', cursive;
+  font-size: 100px; }
+  .mainHeader .showActressButton {
+    margin-top: 10vh; }
 
 .btn-default {
   margin-top: 5vh; }

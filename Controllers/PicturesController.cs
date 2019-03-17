@@ -11,8 +11,7 @@ namespace Actresses.Controllers
         Database db = new Database();
         public List<string> Get()
         {
-            List<string> pictures = db.getPictures();
-            return pictures;
+          return db.getPictures();
         }
     }
 }

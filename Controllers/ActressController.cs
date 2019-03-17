@@ -12,8 +12,7 @@ namespace Actresses.Controllers
 
         public List<object> Get()
         {
-            List<object> data = db.getActressData(actress);
-            return data;
+          return db.getActressData(actress);
         }
     }
 }
