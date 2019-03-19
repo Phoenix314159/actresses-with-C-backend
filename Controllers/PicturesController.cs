@@ -9,6 +9,7 @@ namespace Actresses.Controllers
     public class PicturesController : ControllerBase
     {
         Database db = new Database();
+
         public List<string> Get()
         {
           return db.getPictures();
